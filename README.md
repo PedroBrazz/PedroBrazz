@@ -1,4 +1,31 @@
-.github/workflows/generate-snake.yml
+.github/workflows/name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # roda todo dia à meia-noite
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate GitHub Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: PedroBrazz
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Push to GitHub
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "generate snake animation"
+          add: "dist/snake.svg dist/snake-dark.svg"
+
 
 <h2 align="left">Hi 👋! My name is Pedro Braz and I'm a Desenvolvedor Front-End</h2>
 
