@@ -35,6 +35,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/PedroBrazz/PedroBrazz/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/PedroBrazz/PedroBrazz/output/dist/snake.svg" alt="Animação da cobra" />
+
 
 ###
