@@ -4,7 +4,7 @@
 
 Me chamo Pedro Antonio Braz da Silva, tenho 18 anos e sou natural de Goiana - PE. Concluí o ensino médio no SESI de Goiana - PE, com o curso técnico em Ánalise e Desenvolvimento de Sistemas. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Unipê - PB. Sou apaixonado por tecnologia desde sempre e com esse github pretendo mostrar meus conhecimentos para a comunidade da tecnologia.
 
-p
+<p>
     <a href="https://github.com/PedroBrazz?tab=repositories&sort=stargazers">
         <img 
             alt="Total de estrelas" 
@@ -88,14 +88,14 @@ p
     alt="GitHub Stats" 
     height="200" 
     style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=Larissakich&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
+    src="https://github-readme-stats.vercel.app/api?username=PedroBrazz&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
   />
 
 <img 
       align="left" 
       alt="GitHub Stats" 
       height="200" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=larissakich&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroBrazz&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
   />
 
 </p>
